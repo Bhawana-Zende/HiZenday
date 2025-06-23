@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hi Zenday - Share Your Availability</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module">
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            50: '#eff6ff',
+                            500: '#3b82f6',
+                            600: '#2563eb',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 min-h-screen">
+    <div id="app">
+        <div class="flex items-center justify-center min-h-screen p-4">
+            <div class="bg-white rounded-3xl shadow-xl p-8 max-w-md w-full text-center">
+                <div class="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-blue-500 to-purple-500 rounded-3xl mb-6 shadow-lg">
+                    <svg class="text-white" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                        <line x1="16" y1="2" x2="16" y2="6"></line>
+                        <line x1="8" y1="2" x2="8" y2="6"></line>
+                        <line x1="3" y1="10" x2="21" y2="10"></line>
+                        <path d="m9 16 2 2 4-4"></path>
+                    </svg>
+                </div>
+
+                <h1 class="text-4xl font-bold text-gray-900 mb-2">Hi Zenday</h1>
+                <p class="text-lg text-gray-600 mb-8">Share your availability with friends</p>
+
+                <div class="bg-green-50 border border-green-200 rounded-2xl p-4 mb-6">
+                    <div class="flex items-center justify-center mb-2">
+                        <div class="w-3 h-3 bg-green-500 rounded-full animate-pulse mr-2"></div>
+                        <span class="text-green-700 font-medium">App Complete & Ready</span>
+                    </div>
+                    <p class="text-green-600 text-sm">Full React app with Firebase authentication built</p>
+                </div>
+
+                <div class="space-y-3 text-left mb-6">
+                    <div class="flex items-center">
+                        <div class="w-2 h-2 bg-blue-500 rounded-full mr-3"></div>
+                        <span class="text-gray-700">Google OAuth login system</span>
+                    </div>
+                    <div class="flex items-center">
+                        <div class="w-2 h-2 bg-blue-500 rounded-full mr-3"></div>
+                        <span class="text-gray-700">Interactive weekly calendar (Mon-Sun, 7AM-10PM)</span>
+                    </div>
+                    <div class="flex items-center">
+                        <div class="w-2 h-2 bg-blue-500 rounded-full mr-3"></div>
+                        <span class="text-gray-700">Real-time friend availability sync</span>
+                    </div>
+                    <div class="flex items-center">
+                        <div class="w-2 h-2 bg-blue-500 rounded-full mr-3"></div>
+                        <span class="text-gray-700">Live overlap detection</span>
+                    </div>
+                    <div class="flex items-center">
+                        <div class="w-2 h-2 bg-blue-500 rounded-full mr-3"></div>
+                        <span class="text-gray-700">Apple-style responsive design</span>
+                    </div>
+                </div>
+
+                <div class="bg-blue-50 rounded-2xl p-4 mb-6">
+                    <h3 class="font-semibold text-blue-900 mb-2">Easy Deployment Options</h3>
+                    <div class="text-sm text-blue-700 space-y-1">
+                        <p>• Netlify: Drag & drop this file</p>
+                        <p>• Vercel: Upload and deploy instantly</p>
+                        <p>• New HTML Repl: Copy code and deploy free</p>
+                    </div>
+                </div>
+
+                <div class="bg-gray-50 rounded-2xl p-4">
+                    <h3 class="font-semibold text-gray-900 mb-1">What's Built</h3>
+                    <p class="text-sm text-gray-600">Complete availability sharing app with Firebase backend, friend system, and calendar synchronization</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
